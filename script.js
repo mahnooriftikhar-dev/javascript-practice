@@ -40,7 +40,7 @@
 // // document.getElementById(`submit`).onclick = function(){
 // //     username= document.getElementById(`userid`).value;
 // //     document.getElementById(`user`).textContent=`welcome ${username}`
-    
+
 // // }
 // //type conversion 
 // // let x = "0";
@@ -133,3 +133,53 @@
 //     console.log("its not sunny");
 // }
 
+// function studentname(){
+//     console.log("mahoor")
+// }
+// studentname();
+// function sayHello() {
+//   console.log("Hello!");
+// }
+
+// sayHello(); // calling the function
+// function
+
+// function add(a,b){
+//   return a+b;
+// }
+// let result = add(5,90);
+// console.log(result);
+
+//reverse an array
+// let namesofstudents = ["Mahnoor", "Mano", "Noor"];
+// for(i = namesofstudents.length-1; i >= 0; i--  ){
+//     console.log(namesofstudents[i]);
+// }
+// // spreadoperator
+// let noname = [1, 2, 0];
+// let numbername =[...noname];
+// console.log(numbername);
+// let numbers = [1, 2, 3];
+// let newNumbers = [...numbers];
+// console.log(newNumbers);
+// callback
+// function greet(name){
+//     console.log(" Hello Dear " + name);
+// }
+// function  passname(cb){
+//     let sample = "Mahnoor Iftikhar";
+//     cb(sample);
+
+// }
+// passname(greet);
+// callback is a function in which the whole function is passes as an argument in other function
+// let names=["mano", "mano"];
+// names.forEach(function(girlname){
+//     console.log(girlname);
+// })
+//map function also change every element of array but the main diiffernce is that it creates a new array from the old array.
+// let number = [1,2,3];
+// let multiply_no = number.map(function(result){
+//     return result*2;
+// })
+// console.log(multiply_no);
