@@ -184,3 +184,9 @@
 // })
 // console.log(multiply_no);
 // reduce an array that reduce all the values of an array into a single value 
+// //function expression storing a function in a variable like string and numbers are stored inside a variabel right
+// let myname = function(mamname){
+//     console.log(`Mahnoor`);
+// }
+// myname();
+
