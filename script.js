@@ -183,3 +183,4 @@
 //     return result*2;
 // })
 // console.log(multiply_no);
+// reduce an array that reduce all the values of an array into a single value 
