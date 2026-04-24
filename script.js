@@ -189,4 +189,12 @@
 //     console.log(`Mahnoor`);
 // }
 // myname();
+// using constructors without classes
 
+function studentname(number,age,name){
+this.number = number;
+this.age = age;
+this.name = name;
+}
+let student = new studentname(15, 20, `Mahnoor`);
+console.log(student);
