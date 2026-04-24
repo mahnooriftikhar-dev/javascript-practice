@@ -191,10 +191,23 @@
 // myname();
 // using constructors without classes
 
-function studentname(number,age,name){
-this.number = number;
-this.age = age;
-this.name = name;
+// function studentname(number,age,name){
+// this.number = number;
+// this.age = age;
+// this.name = name;
+// }
+// let student = new studentname(15, 20, `Mahnoor`);
+// console.log(student);
+
+class user{
+    constructor(name,age){
+        this.name = name;
+        this.age = age;
+    }
+     userinfo(){
+        console.log('So the userinfo is' +  this.name  +  this.age)
+    }
 }
-let student = new studentname(15, 20, `Mahnoor`);
-console.log(student);
+user1 = new user(' name:Mahnoor Iftikhar' , 
+                `age:18`);
+user1.userinfo();
