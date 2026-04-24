@@ -199,15 +199,15 @@
 // let student = new studentname(15, 20, `Mahnoor`);
 // console.log(student);
 
-class user{
-    constructor(name,age){
-        this.name = name;
-        this.age = age;
-    }
-     userinfo(){
-        console.log('So the userinfo is' +  this.name  +  this.age)
-    }
-}
-user1 = new user(' name:Mahnoor Iftikhar' , 
-                `age:18`);
-user1.userinfo();
+// class user{
+//     constructor(name,age){
+//         this.name = name;
+//         this.age = age;
+//     }
+//      userinfo(){
+//         console.log('So the userinfo is' +  this.name  +  this.age)
+//     }
+// }
+// user1 = new user(' name:Mahnoor Iftikhar' , 
+//                 `age:18`);
+// user1.userinfo();
