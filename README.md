@@ -2,4 +2,4 @@
 <br>
 <p>It's not in a structured form </p>
 <br>
-<p>Still if anyone wants to explore it ...You have choice</p>
+<p>Still if anyone wants to explore it ...you are free to go </p>
