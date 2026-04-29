@@ -211,3 +211,8 @@
 // user1 = new user(' name:Mahnoor Iftikhar' , 
 //                 `age:18`);
 // user1.userinfo();
+//inheritance 
+//destructing
+let name =[`Mahnoor`, `Noor`, `mano`];
+let [a, b, c] = name;
+console.log(a);
