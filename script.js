@@ -213,6 +213,16 @@
 // user1.userinfo();
 //inheritance 
 //destructing
-let name =[`Mahnoor`, `Noor`, `mano`];
-let [a, b, c] = name;
-console.log(a);
+// let name =[`Mahnoor`, `Noor`, `mano`];
+// let [a, b, c] = name;
+// console.log(a);
+//nested objects
+let name = {
+    user: "Mahnoor",
+    email: "mano@gmail.com",
+    passcode : {
+        user1 :"Princess",
+    }
+}
+//console.log(name.passcode.user1);
+console.log(name.user, name.passcode.user1);
