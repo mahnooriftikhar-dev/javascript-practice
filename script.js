@@ -232,15 +232,16 @@
 //    resolve("Hello");
 
 // });
-const promise = new Promise((resolve, reject) => {
+// const promise = new Promise((resolve, reject) => {
 
-   let success = true;
+//    let success = true;
 
-   if(success) {
-      resolve("Task completed");
-   } else {
-      reject("Task failed");
-   }
+//    if(success) {
+//       resolve("Task completed");
+//    } else {
+//       reject("Task failed");
+//    }
 
-});
-console.log(promise);
+// });
+// console.log(promise);
+
