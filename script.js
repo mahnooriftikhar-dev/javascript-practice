@@ -227,3 +227,20 @@
 // //console.log(name.passcode.user1);
 // console.log(name.user, name.passcode.user1);
 
+// const myPromise = new Promise((resolve, reject) => {
+
+//    resolve("Hello");
+
+// });
+const promise = new Promise((resolve, reject) => {
+
+   let success = true;
+
+   if(success) {
+      resolve("Task completed");
+   } else {
+      reject("Task failed");
+   }
+
+});
+console.log(promise);
